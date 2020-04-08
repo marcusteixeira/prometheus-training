@@ -10,6 +10,9 @@ Source of my Prometheus Training
 ## About Course
 
 - Prometheus 101 - Introduction to Prometheus and Cloud Native Applications
+- Prometheus 102 - PromQL Basic and Alert Rules
+- Prometheus 201 - Prometheus HA and Support to Long Term Remote Storage (todo)
+- Prometheus 301 - Build exporters (todo)
 
 ## Star, Create Issues, Fork, and Contribute
 
@@ -61,7 +64,6 @@ Prometheus is an open-source systems monitoring and alerting toolkit originally 
 ### Prometheus Architecture
 
 ![Prometheus Architecture](images/prometheus-architecture.png)
-
 
 ![Prometheus Architecture](images/prometheus_map.jpg)
 
@@ -171,7 +173,6 @@ Check status code 200 on website:
 
 - sika.io: <http://example.sikademo.com:9115/probe?module=http_2xx&target=https://sika.io>
 - foo.int (not working): <http://example.sikademo.com:9115/probe?module=http_2xx&target=https://foo.int>
-
 
 ### cAdvisor
 
