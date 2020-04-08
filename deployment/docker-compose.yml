@@ -121,6 +121,7 @@ services:
       - "9090:9090"
       - "9093:9093"
       - "9091:9091"
+      - "9115:9115"
     volumes:
       - ./caddy:/etc/caddy
     environment:
@@ -131,3 +132,14 @@ services:
       - monitor-net
     labels:
       org.label-schema.group: "monitoring"
+
+  blackbox:
+    image: prom/blackbox-exporter:latest
+    container_name: blackbox
+    privileged: true
+    networks:
+      - monitor-net
+    volumes:
+      - ./blackbox.yml:/etc/blackbox_exporter/config.yml
+    expose:
+      - 9115
