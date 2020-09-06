@@ -432,6 +432,7 @@ Kubernetes
 - Prometheus For Beginners - <https://itnext.io/prometheus-for-beginners-5f20c2e89b6c>
 - Prometheus Exemplars - <https://docs.google.com/document/d/1ymZlc9yuTj8GvZyKz1r3KDRrhaOjZ1W1qZVW_5Gj7gA/edit#>
 - Prometheus Playground - <https://github.com/prometheus-community/prometheus-playground>
+- PromQL Cheat Seet by PromLabs - <https://promlabs.com/promql-cheat-sheet/>
 
 ## Case Studies
 
